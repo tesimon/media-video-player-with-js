@@ -9,6 +9,9 @@ const stop = document.querySelector(".stop");
 const rwd = document.querySelector(".rwd");
 const fwd = document.querySelector(".fwd");
 
+media.width = innerWidth - 100;
+media.height = innerHeight - 100;
+
 const timerWrapper = document.querySelector(".timer");
 const timer = document.querySelector(".timer span");
 const timerBar = document.querySelector(".timer div");
